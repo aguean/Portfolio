@@ -1,0 +1,20 @@
+/*Borders to have a visual of the space of each element*/
+body {
+    border: 4px solid red;
+}
+
+nav, main, footer {
+    border: 4px solid green;
+}
+
+div {
+    border: 4px solid purple;
+}
+
+section {
+    border: 4px solid orange;
+}
+
+h1, h2, p, ul, li, a {
+    border: 2px solid blue;
+}

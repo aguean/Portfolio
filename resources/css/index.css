@@ -1,0 +1,124 @@
+*{
+    margin: 0; /*rimuove tutti gli spazi aggiunti automaticamente*/
+    padding: 0; /*rimuove tutti gli spazi aggiunti automaticamente*/
+   
+    /*font-family: "Libre Franklin", sans-serif;*/
+    font-family: "Arimo", sans-serif;
+    font-size: 18px;
+    line-height: 32px; /*spazia le scritte verticalmente tra una riga e un'altra*/
+}
+
+body {
+    margin: 24px; /*crea il bordo bianco attorno a tutto il resto*/
+}
+
+nav, main, footer{
+    padding: 0 60px; /*padding sotto/sopra 0 - destra/sinistra 60*/
+}
+
+#nav-container {
+    display: flex; /* mette gli elementi del contenitore allineati orizzontalmente*/
+    align-items: center; /*al centro verticalmente */
+    justify-content: space-between; /*e agli estremi*/
+    padding-top: 35px;
+}
+
+.nav-links{
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 800;
+}
+
+section {
+    margin: 0 auto; /* 0 sopra/sotto - auto destra/sinistra*/
+    padding-bottom: 60px;
+    /*max-width: 1300px;*/
+}
+
+ul {
+    display: flex;/*allinea i link orizzontalmente*/
+}
+
+li {
+    list-style-type: none; /*rimuove i dots della lista*/
+    margin-left: 50px; /*spazio a sinistra tra i link del menu*/  
+    line-height: 0%; /*spazio scritte nei links 0*/
+}
+
+a {
+    text-decoration: none; /*rimuove il sottolineato dei link*/
+    color: black; /*cambia il colore dei links che solitamente sono blu*/
+    line-height: 0%; /*spazio scritte nei links 0*/
+}
+
+#headline-wrap{
+    margin-top: 10px;
+    margin-bottom: 25px; /*spazio sotto la headline*/
+    max-width: 90vh; /*riduce lo spazio in cui si puo espandere la headline "Hi ..."*/
+}
+
+#about-paragraph{
+    margin-bottom: 40px;
+    max-width: 460px; /*riduce lo spazio in cui si puo espandere il primo paragrafo*/
+}
+
+.background-color{
+    background-color: rgba(110, 194, 190, 0.23);
+}
+
+.style-titles {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vh;
+    line-height: 130%;
+}
+
+.button {
+    background-color: black;
+    padding: 12px 32px;
+    border: none;
+    min-width: 200px;
+}
+
+.text-button {
+    color: white;
+}
+
+.my-work-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+img {
+    size: 50%;
+}
+
+.my-work-continer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*.image{
+    margin: 0 auto
+    background-image: url(/resources/images/goldenapple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}*/
+
+.second-column {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.image {
+    max-width: 100%;
+    height: 100%;
+    background-image: url(../images/Thumbnail-min.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
